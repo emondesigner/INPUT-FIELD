@@ -1,0 +1,50 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* COMMON CSS END */
+.input_field{
+    height: 100vh;
+}
+form{
+    width: 450px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+form input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(61, 39, 39);
+}
+form button{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid rgb(61, 39, 39);
+
+}
+form i{
+    font-size: 20px;
+}
+form button.submit{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(61, 39, 39);
+    background-color: #6b5050;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
